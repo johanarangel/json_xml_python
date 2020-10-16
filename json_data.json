@@ -1,0 +1,21 @@
+[
+    {
+        "Nombre": "Cristina",
+        "Apellido": "Vega",
+        "Dni": 95000001,
+        "Ropa": [
+            {
+                "Prendas": "Sweter",
+                "Cantidad": 3
+            },
+            {
+                "Prendas": "Blusas",
+                "Cantidad": 10
+            },
+            {
+                "Prendas": "Camperas",
+                "Cantidad": 2
+            }
+        ]
+    }
+]

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<datos_personales>
+    <nombre>Cristina</nombre>
+    <apellido>Vega</apellido>
+    <dni>95000001</dni>
+    <ropa prendas="Sweter">
+        <cantidad>3</cantidad>        
+    </ropa>
+    <ropa prendas="Camperas">
+        <cantidad>2</cantidad>       
+    </ropa>
+    <ropa prendas="Blusa">
+        <cantidad>10</cantidad>       
+    </ropa>
+</datos_personales>

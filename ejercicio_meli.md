@@ -42,8 +42,8 @@ En "results" tendrá una lista de diccionarios donde cada fila contiene los dato
 Deben usar el módulo request como se vió en clase para consumir la URL provista en el enunciado. Deben crear una función llamada "fetch" que por ahora no recibirá ningún parámetro pero deberá devolver el dataset de datos.
 ```
 dataset = fetch()
-```
-La función "fetch" debe leer la lista de departamentos/alquileres y filtrar aquellas publicaciones cuyo "__"currency_id"__" no esté en pesos "ARS". Deben utilizar comprension de listas para poder hacer el filtrado de la lista de alquileres en una nueva en donde solo haya alquileres en pesos.\
+```currency_id
+La función "fetch" debe leer la lista de departamentos/alquileres y filtrar aquellas publicaciones cuyo "__""__" no esté en pesos "ARS". Deben utilizar comprension de listas para poder hacer el filtrado de la lista de alquileres en una nueva en donde solo haya alquileres en pesos.\
 El dataset que retorna "fetch" debe ser una lista de diccionarios con la siguiente información por cada alquiler:
 ```
 {"price": ..., "condition": ...}
