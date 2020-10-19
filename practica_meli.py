@@ -17,11 +17,11 @@ def fetch():
 
 def transform(dataset, min, max):
       
-    depa_minparametro = [x for x in dataset if x['price'] < min]
+    depa_minparametro = [x for x in dataset if x['price'] <= min]
 
     depa_promedio = [x for x in dataset if min < x['price'] < max]
 
-    depa_maxparametro = [x for x in dataset if x['price'] > max]
+    depa_maxparametro = [x for x in dataset if x['price'] >= max]
 
     min_count = len(depa_minparametro)
     min_max_count = len(depa_promedio)
