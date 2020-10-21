@@ -52,6 +52,7 @@ Lo que nos interesa de estos datos son el "__userId__", el consumo realizado en 
 Deben usar el módulo request como se vió en clase para consumir la URL provista en el enunciado. Recordar que la URL puede tener hasta 16 páginas, por lo que cuando realicen el request deben construir el string según la página que desean leer, un ejemplo para ello:
 ```
 url = https://jsonmock.hackerrank.com/api/transactions/search?txnType=debit&page={}.format(page_number)
+
 ```
 Deben crear una función llamada "fetch" que reciba como parámetro el número de la página que desean leer y el "location_id".\
 ```
